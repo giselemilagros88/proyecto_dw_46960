@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+.nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+/*main index*/
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.main h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.main .section p{
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/*main galeria*/
+.mainGaleria{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.galeriaItem{
+    flex: 1;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.galeriaItem img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+
+}
+/*main de contacto*/
+
+/*main de nosotros*/
+
+/*main de mas info */
+
+.footer{
+    display: flex;
+    background-color: pink;
+}
+
+.footer div{
+    flex: 1;
+    padding: 20px;
+}
+
+.footer div a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+/*
+primera entrega 
+5 paginas con su html completo, pero sin contenido real
+1 pagina con estilos iniciales
+5 paginas con el css linkeado
+
+fuente- colores - espaciados
+
+
+
+*****************************
+
+5 paginas con su html completo, contenido real o no 
+>1 paginas con estilos iniciales 
+flexbox y grid
+
+2da entrega
+ubicacion de elementos en la pantalla(en 5 de las paginas) y en dos paginas responsive (que se vea bien en celular), todo con bootstrap
+*/

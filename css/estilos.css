@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    background-color: #f2f2f2;
+}
+
+.navegador{
+    height: 15vh;
+}
+
+.colorAzulLogo{
+    color: #321ae8;
+}
+
+.bgCeleste{
+    background-color: #000020;
+}
+
+.carousel-item{
+    height:35vh;
+    width: 100%;
+}
+.carousel-item img{
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.anchoCard{
+    width: 200px;
+}
+.btnVioleta{
+    background-color: #d01ae8;
+    border-color: #de1ae8;
+}
+@media screen and (max-width: 577px){
+    .navegador{
+        height: initial;
+    }
+}
